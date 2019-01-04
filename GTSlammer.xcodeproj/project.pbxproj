@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D285AAA21DB0535008669A7 /* DPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D285AA921DB0535008669A7 /* DPad.swift */; };
 		8D47DA2C21D9E1FB00F4CB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47DA2B21D9E1FB00F4CB61 /* AppDelegate.swift */; };
 		8D47DA2E21D9E1FB00F4CB61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47DA2D21D9E1FB00F4CB61 /* ViewController.swift */; };
 		8D47DA3121D9E1FB00F4CB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47DA2F21D9E1FB00F4CB61 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		8D47DA3621D9E1FB00F4CB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D47DA3421D9E1FB00F4CB61 /* LaunchScreen.storyboard */; };
 		8D47DA4121D9E1FC00F4CB61 /* GTSlammerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47DA4021D9E1FC00F4CB61 /* GTSlammerTests.swift */; };
 		8D47DA4C21D9E1FC00F4CB61 /* GTSlammerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47DA4B21D9E1FC00F4CB61 /* GTSlammerUITests.swift */; };
+		8D47DA5A21D9E35500F4CB61 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D47DA5921D9E35500F4CB61 /* Scene.swift */; };
+		8DC6A29A21DED8A400B08E9F /* EatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6A29921DED8A400B08E9F /* EatButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D285AA921DB0535008669A7 /* DPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPad.swift; sourceTree = "<group>"; };
 		8D47DA2821D9E1FB00F4CB61 /* GTSlammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTSlammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D47DA2B21D9E1FB00F4CB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D47DA2D21D9E1FB00F4CB61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		8D47DA4721D9E1FC00F4CB61 /* GTSlammerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTSlammerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D47DA4B21D9E1FC00F4CB61 /* GTSlammerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTSlammerUITests.swift; sourceTree = "<group>"; };
 		8D47DA4D21D9E1FC00F4CB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D47DA5921D9E35500F4CB61 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		8DC6A29921DED8A400B08E9F /* EatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				8D47DA2B21D9E1FB00F4CB61 /* AppDelegate.swift */,
 				8D47DA2D21D9E1FB00F4CB61 /* ViewController.swift */,
+				8D47DA5921D9E35500F4CB61 /* Scene.swift */,
 				8D47DA2F21D9E1FB00F4CB61 /* Main.storyboard */,
 				8D47DA3221D9E1FB00F4CB61 /* Assets.xcassets */,
 				8D47DA3421D9E1FB00F4CB61 /* LaunchScreen.storyboard */,
 				8D47DA3721D9E1FB00F4CB61 /* Info.plist */,
+				8D285AA921DB0535008669A7 /* DPad.swift */,
+				8DC6A29921DED8A400B08E9F /* EatButton.swift */,
 			);
 			path = GTSlammer;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D47DA2E21D9E1FB00F4CB61 /* ViewController.swift in Sources */,
+				8DC6A29A21DED8A400B08E9F /* EatButton.swift in Sources */,
 				8D47DA2C21D9E1FB00F4CB61 /* AppDelegate.swift in Sources */,
+				8D285AAA21DB0535008669A7 /* DPad.swift in Sources */,
+				8D47DA5A21D9E35500F4CB61 /* Scene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GTSlammer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = max.GTSlammer;
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GTSlammer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = max.GTSlammer;
